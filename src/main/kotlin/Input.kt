@@ -8,8 +8,7 @@ fun selectMode() : Int {
     var selectMode : Int
 
     while (true) {
-        println("1. 게임시작 2. 기록보기 3. 게임종료")
-        print("선택 : ")
+        selectPrint()
         selectMode = scanner.nextInt()
 
         if (selectMode in 1..3) {
@@ -27,8 +26,7 @@ fun inputAnswer() : String{
 
 
     while (true) {
-        println("세 자리 수를 입력해 주세요 \nex) 123 / 714")
-        print("입력 : ")
+        inputPrint()
         input = scanner.next()
 
         if (input.length != 3) {
@@ -46,7 +44,7 @@ fun inputAnswer() : String{
             input.toInt()
             return  input
         } catch (e: NumberFormatException) {
-            inputNumber()
+            wrongNumber()
             continue
         }
 

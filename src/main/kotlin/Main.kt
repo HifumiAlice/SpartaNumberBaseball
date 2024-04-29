@@ -7,7 +7,7 @@ fun main() {
     while (true) {
         when (selectMode()) {
             1 -> {
-                gameStart() // 게임 방법 안내
+                gameStart()
                 gameScore.add(PlayGame().run())
                 equalAnswer(gameScore[gameScore.size - 1])
             }

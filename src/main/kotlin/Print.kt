@@ -33,7 +33,7 @@ fun sameNumber() {
     println("=========================")
 }
 
-fun inputNumber() {
+fun wrongNumber() {
     println("=========================")
     println("숫자를 입력해 주세요")
     println("=========================")
@@ -71,4 +71,17 @@ fun recordPlay(record : MutableList<Int>) {
     for (i in record.indices) {
         println("${i+1}번째 게임 : 시도 횟수 - ${record[i]}")
     }
+    println("=========================")
+}
+
+fun selectPrint() {
+    println("=========================")
+    println("1. 게임시작 2. 기록보기 3. 게임종료")
+    print("선택 : ")
+}
+
+fun inputPrint() {
+    println("=========================")
+    println("세 자리 수를 입력해 주세요 \nex) 123 / 714")
+    print("입력 : ")
 }
