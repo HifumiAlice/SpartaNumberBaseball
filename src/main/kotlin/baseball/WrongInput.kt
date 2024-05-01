@@ -7,4 +7,6 @@ open class WrongInput : PrintLog {
         println("============")
         println("자식 객체를 내놔라")
     }
+
+
 }
