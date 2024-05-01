@@ -18,6 +18,7 @@ class PresentSituation : ParameterPrint() {
             println("현재 결과 : ${strike}스트라이크 ${ball}볼 ")
         }
     }
+
     fun setStrikeAndBall(strike : Int, ball : Int) {
         this.strike = strike
         this.ball = ball

@@ -32,6 +32,7 @@ class Input {
             var selectMode : Int
 
             while (true) {
+
                 TextPrint.selectPrint()
 
                 try {

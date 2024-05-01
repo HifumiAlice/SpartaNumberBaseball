@@ -1,6 +1,9 @@
-package baseball
+package game
 
-import java.util.*
+import game.baseball.Input
+import game.baseball.PlayGame
+import game.baseball.TextPrint
+import game.baseball.parameterPrint
 
 fun main() {
 
@@ -24,4 +27,3 @@ fun main() {
 
 
 }
-
