@@ -1,4 +1,4 @@
-package baseball
+package game.baseball
 import java.util.Scanner
 
 class Input {
