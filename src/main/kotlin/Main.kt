@@ -1,23 +1,26 @@
 package baseball
 
+import java.util.*
+
 fun main() {
 
     val gameScore : MutableList<Int> = mutableListOf()
 
     while (true) {
-        when (selectMode()) {
+        when (Input.selectMode()) {
             1 -> {
-                gameStart()
+                TextPrint.gameStart()
                 gameScore.add(PlayGame().run())
-                equalAnswer(gameScore[gameScore.size - 1])
+                parameterPrint.equalAnswer(gameScore[gameScore.size - 1])
             }
-            2 -> recordPlay(gameScore)
+            2 -> parameterPrint.recordPlay(gameScore)
             3 -> {
-                endGame()
+                TextPrint.endGame()
                 break
             }
         }
     }
+
 
 
 }
