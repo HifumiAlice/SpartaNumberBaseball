@@ -6,8 +6,8 @@ class NumberBaseball : Game() {
 
     override val name = "숫자 야구"
 
-    val gameScore : MutableList<Int> = mutableListOf()
-    val info = InformationPrint()
+    private val gameScore : MutableList<Int> = mutableListOf()
+    private val info = InformationPrint()
     override fun run() {
         while (true) {
             when (Person().selectMode()) {
