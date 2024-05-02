@@ -13,7 +13,7 @@ class PlayGame() {
             val answer = Input.inputAnswer()
 
             if (answer == "cheat") {
-                dskakfda
+
                 parameterPrint.cheatMode(this.answer)
 
 //                return -1
