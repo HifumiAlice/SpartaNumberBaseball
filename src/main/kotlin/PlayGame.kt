@@ -7,6 +7,7 @@ class PlayGame() {
     private val answer : String = randomAnswer()
     private val person = Person()
     private val info = InformationPrint()
+
     fun run() : Int{
         var cnt : Int = 1
 

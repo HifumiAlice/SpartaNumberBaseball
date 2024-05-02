@@ -3,24 +3,8 @@ package baseball
 import java.util.*
 
 class Person {
-    val scanner = Scanner(System.`in`)
-    val info = InformationPrint()
-
-    fun selectGame(size : Int) : Int{
-        var selectGame : Int
-
-        while (true) {
-            try {
-                selectGame = scanner.next().toInt()
-                if (selectGame <= 0 || selectGame > size)
-                    info.info("1부터 ${size}중에서 골라주세요")
-                return selectGame
-            } catch (e : Exception) {
-                info.info("숫자를 입력해주세요")
-            }
-        }
-
-    }
+    private val scanner = Scanner(System.`in`)
+    private val info = InformationPrint()
 
     fun selectMode() : Int {
 
