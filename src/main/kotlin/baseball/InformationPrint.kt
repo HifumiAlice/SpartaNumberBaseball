@@ -14,12 +14,8 @@ class InformationPrint {
         if(record.size == 0) println("기록이 없습니다.")
         else {
             println("기록을 확인합니다.")
-            var idx = 1
-//            for (i in record.indices) {
-//                println("${i + 1}번째 게임 : 시도 횟수 - ${record[i]}")
-//            }
-            record.forEach{
-                println("${idx++}번째 게임 : 시도 횟수 - ${it}")
+            for (i in record.indices) {
+                println("${i + 1}번째 게임 : 시도 횟수 - ${record[i]}")
             }
         }
     }
