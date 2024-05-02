@@ -1,4 +1,4 @@
-package baseball
+package baseball.global
 
 class GameRunner {
     fun run(game : Game) {

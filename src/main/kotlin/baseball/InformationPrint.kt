@@ -1,4 +1,4 @@
-package baseball
+package baseball.baseball
 
 class InformationPrint {
     fun select(message: String) {

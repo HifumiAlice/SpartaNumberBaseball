@@ -1,4 +1,6 @@
-package baseball
+package baseball.baseball
+
+import baseball.global.Game
 
 class NumberBaseball : Game() {
 

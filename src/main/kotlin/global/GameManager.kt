@@ -1,4 +1,8 @@
-package baseball
+package baseball.global
+
+import baseball.baseball.InformationPrint
+import baseball.baseball.NumberBaseball
+import baseball.baseball.Person
 
 class GameManager {
 
