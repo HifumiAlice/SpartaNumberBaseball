@@ -12,8 +12,10 @@ class Person {
         while (true) {
             try {
                 selectGame = scanner.next().toInt()
-                if (selectGame <= 0 || selectGame > size)
-                    info.info("1부터 ${size}중에서 골라주세요")
+                if (selectGame <= 0 || selectGame > size) {
+                    info.info("게임 목록 중에서 골라주세요")
+                    continue
+                }
                 return selectGame
             } catch (e : Exception) {
                 info.info("숫자를 입력해주세요")
